@@ -1,0 +1,284 @@
+header {
+    position: static;
+    height: 140px;
+    align-items: flex-start;
+    flex-direction: column;
+    
+
+}
+
+
+
+/* --------------------------------------------------------MAINdesktop----------------------------------------------------------- */
+
+.banner {
+    background-color: rgb(241, 183, 193);
+    height: 900px;
+    border-top: none;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-family: "titilium black";
+}
+
+.main1 a {
+    width: 200px;
+    margin-top: 650px;
+}
+
+/* tela azulzinha */
+
+.main2 {
+    flex-direction: row;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.fifa-cs {
+    width: 45%;
+    height: 313px;
+    justify-content: space-between;
+}
+
+.fifa-cs img {
+    height: 100%;
+}
+
+/* Secao amarela desktop */
+
+.progamer {
+    height: 1000px;
+}
+
+.progamer h2 {
+    font-size: 40px;
+    font-family: "titilium black";
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    height: 719px;
+}
+
+.border-gradient {
+    width: 360px;
+    height: 440px;
+}
+
+.border-gradient2 {
+    width: 360px;
+    height: 440px;
+}
+
+.Croxa {
+    justify-content: flex-start;
+    width: 360px;
+    height: 440px;
+}
+
+.Croxa h3 {
+    margin-top: 23px;
+    font-size: 25px;
+}
+
+.Croxa p {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 248px;
+    height: 49px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#prof {
+    font-size: 16px;
+}
+
+.Croxa .controle {
+    margin-top: 56px;
+    width: 143px;
+    height: 143px;
+}
+
+.Croxa .user {
+    margin-top: 38px;
+    width: 162px;
+    height: 162px;
+}
+
+.border-gradient {
+    left: 230px;
+    top: 150px;
+}
+
+.border-gradient2 {
+    right: 250px;
+    top: 150px;
+}
+
+.caixinha {
+    bottom: 60px;
+}
+
+.c2 {
+    position: relative;
+    bottom: 40px;
+}
+
+.c2 img {
+    width: 521px;
+    height: 692px;
+    margin-top: -40px;
+}
+
+.kiljoy-mobile {
+    display: none;
+}
+
+.kiljoy-desktop {
+    display: flex;
+}
+
+.jinx-mobile {
+    display: none;
+}
+
+.jinx-desktop {
+    display: flex;
+}
+
+/*  sessao das noticias desktop  */
+
+.noticias {
+    background-image: url(../assets/images/back-ground\ noticias.svg);
+    height: 100%;
+
+}
+
+.noticias h2 {
+    font-size: 40px
+}
+
+.card {
+    width: 285px;
+    height: 387px;
+    margin-bottom: 60px;
+    transition: box-shadow 0.5s;
+}
+
+.card:hover {
+    box-shadow: 15px 0px 35px;
+}
+
+.news-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ----------------------------------------------------FOOTERdesktop------------------------------------------------------- */
+
+.footer {
+    background-image: url(../assets/images/backgroung_footer.png);
+    box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
+    height: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer h5 {
+    margin-top: 0;
+}
+
+.footer-flex {
+    height: 257px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.agradecimentos {
+    width: 294px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.agradecimentos * {
+    margin: 0 !important;
+}
+
+.midiassociais-footer {
+    width: 206px;
+    justify-content: space-between;
+
+}
+
+.LinksUteis {
+    width: 200px;
+    height: 257px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.Contatos-footer {
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.Newsletter {
+    align-self: flex-start;
+    padding-bottom: 80px;
+}
+
+.LinksUteis li {
+    margin-bottom: 12px;
+}
+
+.LinksUteis li a:hover {
+    color: #f9aa01;
+}
+
+.input-gradient {
+    width: 285px;
+    margin-top: 52px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 46px;
+}
+
+.footer-bottom input {
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+footer .inside a::before {
+    content: "-";
+    color: #F9AA01;
+    width: 13px;
+    height: 0px;
+    display: flex;
+    align-items:center ;
+}
+
+.LinksUteis .inside {
+    width: 126px;
+    height: 243px;
+}
+
+
+
